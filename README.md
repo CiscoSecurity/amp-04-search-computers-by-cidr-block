@@ -5,7 +5,7 @@
 Takes a CIDR block as input and queries the environment for computers with an assigned IP Address within that range. Collects hostname, GUID, and network interfaces of computers that match. This is information is written to disk as ```output.json``` along with the CIDR block that was searched for, the timestamp of the query, the IP address hits, and the total number of hits. If a CIDR block is not provided as a command line argument, the script will prompt for one.
 
 ### Before using you must update the following:
-The authentictaion parameters are set in the ```api.cfg``` :
+The authentication parameters are set in the ```api.cfg``` :
 - client_id 
 - api_key
 
