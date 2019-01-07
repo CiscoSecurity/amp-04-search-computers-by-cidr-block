@@ -20,7 +20,6 @@ python search_computers_cidr_block.py 10.10.10.25/27
 
 ### Example script output:  
 ```
-search_cidr_block.py 10.10.10.25/27
 Querying 32 IP addresses
 Found 1 host with 10.10.10.15
 Found 1 host with 10.10.10.17
